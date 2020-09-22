@@ -1,5 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
 /**
  * 
  * @file main.h
@@ -11,6 +9,9 @@
  * @copyright Copyright (c) 2020
  * 
  */
+
+#ifndef MAIN_H
+#define MAIN_H
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 // #include <lights.h>
@@ -18,9 +19,10 @@
 #define ARRAY_SIZE(arr) int(sizeof(arr) / sizeof(arr[0]))
 
 #define LEDSPIN 2
-// #define LEDS 130
-#define LEDS 20
 #define BUTTON 3
+#define LEDS 20
+// #define LEDS 130
+
 
 /**
  * @brief NeoPixel strip instance
