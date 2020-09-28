@@ -20,8 +20,8 @@
 
 #define LEDSPIN 2
 #define BUTTON 3
-#define LEDS 20
-// #define LEDS 130
+// #define LEDS 20
+#define LEDS 130
 
 
 /**
